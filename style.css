@@ -267,3 +267,104 @@ footer { animation-delay: 2.5s; }
     0% { opacity: 0; transform: translateX(-50px); }
     100% { opacity: 1; transform: translateX(0); }
 }
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+    /* Navbar */
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link {
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Hero Section */
+    #hero .row {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    #hero h2, #hero p {
+        font-size: 1rem;
+    }
+
+    #hero img {
+        width: 70%;
+        margin: 0 auto 20px;
+    }
+
+    .social-icon {
+        position: static !important;
+        margin-top: 20px;
+    }
+
+    /* About */
+    #about {
+        padding: 40px 20px;
+    }
+
+    /* Skills Images */
+    #skill .col-3, #skill .col-4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .imgSkill {
+        width: 60% !important;
+    }
+
+    /* Skill Cards */
+    .skill-konten {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-konten .col-3 {
+        width: 90%;
+    }
+
+    /* Gallery */
+    #konten .row {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    #konten .col-4, 
+    #konten .col-3 {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-img,
+    .mobile-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Footer */
+    footer .row {
+        text-align: center;
+    }
+
+    .footer .col-md-4 {
+        margin-bottom: 20px;
+    }
+
+    /* Modal */
+    .modal-body img {
+        max-height: 60vh;
+    }
+
+    /* Subjudul */
+    .subjudul::after {
+        width: 100px;
+    }
+}
