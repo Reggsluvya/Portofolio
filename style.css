@@ -357,10 +357,17 @@ footer { animation-delay: 2.5s; }
     .footer .col-md-4 {
         margin-bottom: 20px;
     }
-
-    /* Modal */
+ /* Modal */
     .modal-body img {
         max-height: 60vh;
+    }
+
+    .modal-dialog {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0 auto;
     }
 
     /* Subjudul */
