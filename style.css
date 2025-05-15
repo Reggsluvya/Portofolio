@@ -1,4 +1,4 @@
-:root {
+z:root {
     --mainColor: #252734;
     --seconddaryColor: #333646;
     --acsentColor: #ff9100;
@@ -109,7 +109,7 @@ footer { animation-delay: 2.5s; }
     background-color: var(--seconddaryColor);
     color: #fff;
     padding: 80px 0;
-    margin-bottom: 50px;
+/*     margin-bottom: 50px; */
 }
 
 #skill {
