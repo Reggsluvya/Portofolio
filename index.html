@@ -236,6 +236,10 @@
     function openModal(imgElement) {
         document.getElementById('modalImage').src = imgElement.src;
     }
+    
+    $('.nav-link').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
 
     document.addEventListener('DOMContentLoaded', () => {
       const elementsToAnimate = document.querySelectorAll('.animate-on-scroll');
